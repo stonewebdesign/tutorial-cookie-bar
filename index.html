@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tutorial Barra dei Cookie</title>
+</head>
+<body>
+	<h1 style="text-align: center">Tutorial Barra dei Cookie</h1>
+
+	<p style="text-align: center">Adattiamo insieme il sito alla Cookie Law</p>
+
+	<script src="cookiechoices.js"></script>
+	<script>
+	document.addEventListener('DOMContentLoaded', function(event) {
+	cookieChoices.showCookieConsentBar("Avviso: questo sito utilizza i cookie per assicurarti una migliore esperienza di navigazione. Continuando la navigazione nel sito autorizzi l'uso dei cookies:", "Accetto", "La politica della Privacy", "http://example.com");
+	  });
+	</script>
+</body>
+</html>
